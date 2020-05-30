@@ -1,0 +1,14 @@
+#header{
+    min-height: 100px;
+    text-align: center;
+}
+
+.my-pic{
+    width:500px;
+    height: 500px;
+}
+
+#footer{
+    min-height: 40px;
+    text-align: center;
+}
