@@ -14,8 +14,12 @@ function Counter(btn){
 }
 
 function getCount(){
-    const storageVal1 = localStorage.getItem(btn);
-    const value1 = !storageVal1 && isNan(storageVal1)?0:localStorage.getItem(btn);
-    document.getElementById(btn).innerText = value1;
+    const storageVal1 = localStorage.getItem('btn1');
+    const value1 = !storageVal1 && isNan(storageVal1)?0:localStorage.getItem('btn1');
+    document.getElementById('btn1').innerText = value1;
+
+    const storageVal2 = localStorage.getItem('btn2');
+    const value2 = !storageVal2 && isNan(storageVal2)?0:localStorage.getItem('btn2');
+    document.getElementById('btn2').innerText = value2;
 }
     
