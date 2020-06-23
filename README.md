@@ -1,6 +1,10 @@
 # Check-My-Pic
 Project name: Check my pic
 
-Stage 1
+Stage 2
 
-Now to the existing webpage, add a click counter. Every time I click on the image, the counter should increase
+Add a new image with it's own clicker count. 
+Let's work on making our webpage more user friendly as well.
+Add title and a caption below the pictures.
+Bonus: Make the webpage responsive
+
